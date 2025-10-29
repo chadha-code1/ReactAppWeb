@@ -1,23 +1,49 @@
-## Data Science project for data analysis
-- This project features a web application that has been built using a combination of embedded Power BI, HTML, CSS, and Bootstrap 5. The embedded Power BI functionality allows for advanced data visualization and analysis, while the use of HTML and CSS provides a sleek and modern look and feel. Bootstrap 5 has been utilized to ensure the application is highly responsive and mobile-friendly. Overall, the application is a robust and user-friendly solution for those seeking to gain insights and make informed decisions based on data analysis.
+# Restaurant Analytics Dashboard
 
-- As a diligent student at The Hague University of Applied Sciences, I am also a proficient software engineer with experience overseeing large-scale programming projects across diverse industries. In addition to my studies, I research and explore innovative ways to teach programming and design to students of all levels. You can find me online under the name "Coder Shiyar"
-[https://youtube.com/codershiyar](https://youtube.com/codershiyar)
-<br/>
+A comprehensive React-based dashboard platform that provides restaurant owners with powerful analytics, performance insights, and personalized recommendations through embedded Power BI integration.
 
-### Dashboard link 
-Here is a list of dashboard links for Power BI Embedded:
+## Features
 
-- Using only HTML & CSS (without login page): [https://codershiyar.github.io/powerbi-embedded](https://codershiyar.github.io/powerbi-embedded)
-- Using React JS (With login page): [https://codershiyar.github.io/powerbi-embedded/react-app](https://codershiyar.github.io/powerbi-embedded/react-app)
-- Username: Manager, Password: 1234
+### Dashboard & Analytics
+- **Multi-tenant Dashboard** - Separate dashboards for each restaurant client
+- **Power BI Integration** - Embedded Microsoft Power BI reports and visualizations
+- **Real-time Metrics** - Sales, customer traffic, and performance analytics
+- **Custom Reporting** - Tailored insights for each restaurant's needs
 
- 
-| Screenshot of dashboard in desktop web brower  |
-|:---------------------:|
-| ![Screenshot of dashboard in desktop web brower ](./files/Capture.PNG) |
+### Authentication & Security
+- **Secure Login System** - Individual accounts for each restaurant
+- **Role-based Access** - Different views based on user permissions
+- **Data Protection** - Secure data handling and privacy compliance
 
+### Recommendation System
+- **AI-Powered Insights** - Personalized recommendations for menu optimization
+- **Performance Suggestions** - Data-driven advice for business improvement
+- **Trend Analysis** - Identify popular items and customer preferences
 
-| Mobile Dashboard Screenshot | Laptop Dashboard Screenshot |
-|:--------------------------:|:--------------------------:|
-| ![Screenshot of dashboard in mobile](./files/Capture2.PNG) | ![Screenshot of dashboard in laptop](./files/Capture3.PNG) |
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js
+- CSS3/Styled Components
+- Chart.js / Recharts
+- React Router
+
+**Backend:**
+- Node.js / Express
+- MongoDB / PostgreSQL
+- JWT Authentication
+
+**Analytics & Integration:**
+- Microsoft Power BI Embedded
+- RESTful APIs
+- Data Visualization Libraries
+
+### Power BI Report
+
+## Installation & Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB
+- Power BI Account
+
